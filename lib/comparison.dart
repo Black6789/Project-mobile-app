@@ -65,6 +65,9 @@ class _comparState extends State<compar> {
                         if (id1 != 0 && id2 != 0) {
                           if (id1 == id2) {
                             txt = 'Please choose different player';
+                            txt2='';
+                            name='';
+                            img='images/imgcor.jpg';
                           } else {
                             if (AwOrGo == 0) {
                               go = 0;
@@ -108,6 +111,9 @@ class _comparState extends State<compar> {
                         if (id1 != 0 && id2 != 0) {
                           if (id1 == id2) {
                             txt = 'Please choose different player';
+                            txt2='';
+                            name='';
+                            img='images/imgcor.jpg';
                           } else {
                             if (AwOrGo == 0) {
                               go = 0;
@@ -170,6 +176,9 @@ class _comparState extends State<compar> {
                         if (id2 != 0) {
                           if (id1 == id2) {
                             txt = 'Please choose different player';
+                            txt2='';
+                            name='';
+                            img='images/imgcor.jpg';
                           } else {
                             if (AwOrGo == 0) {
                               go = 0;
@@ -227,6 +236,9 @@ class _comparState extends State<compar> {
                       if (id1 != 0) {
                         if (id1 == id2) {
                           txt = 'Please choose different player';
+                          txt2='';
+                          name='';
+                          img='images/imgcor.jpg';
                         } else {
                           if (AwOrGo == 0) {
                             go = 0;

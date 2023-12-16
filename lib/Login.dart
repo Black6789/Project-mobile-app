@@ -81,7 +81,7 @@ class _loginState extends State<login> {
             SizedBox(height: 10),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: Colors.blue,
+
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.0),
                 ),
@@ -98,11 +98,8 @@ class _loginState extends State<login> {
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(
                       content: Text('ID or Password is wrong'),
-                      behavior: SnackBarBehavior.floating,
                       backgroundColor: Colors.red,
-                      margin: EdgeInsets.only(
-                          top: MediaQuery.of(context).padding.top +
-                              kToolbarHeight),
+
                     ),
                   );
                 }
